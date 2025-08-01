@@ -1,0 +1,26 @@
+[
+    {
+        "id": "123",
+        "name": "Zapatillas",
+        "description": "Zapatillas con suela de goma.",
+        "price": 250000
+    },
+    {
+        "id": "124",
+        "name": "Nintendo",
+        "description": "Consola de video juegos.",
+        "price": 840000
+    },
+    {
+        "id": "125",
+        "name": "Chaleco",
+        "description": "Prenda de vestir elegante.",
+        "price": 90000
+    },
+    {
+        "id": "126",
+        "name": "Guitarra Fender",
+        "description": "Guitarra electrica stratocaster.",
+        "price": 1350000
+    }
+]
