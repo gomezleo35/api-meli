@@ -1,0 +1,4 @@
+com/meli/item/ItemDetailApiApplication.class
+com/meli/item/service/ProductService.class
+com/meli/item/model/Product.class
+com/meli/item/controller/ProductController.class
