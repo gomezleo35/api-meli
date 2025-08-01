@@ -30,4 +30,10 @@ public class ProductService {
     public Product getById(String id) {
         return products.stream().filter(p -> p.getId().equals(id)).findFirst().orElse(null);
     }
+
+    public List<Product> search(String query) {
+        return products.stream()
+        .filter(p -> p.getDescription().contains(query) | p.getName().contains(query))
+        .toList();
+    }
 }
