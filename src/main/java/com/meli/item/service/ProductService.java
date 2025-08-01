@@ -33,7 +33,7 @@ public class ProductService {
 
     public List<Product> search(String query) {
         return products.stream()
-        .filter(p -> p.getDescription().contains(query) | p.getName().contains(query))
+        .filter(p -> p.getDescription().toLowerCase().contains(query.toLowerCase()) | p.getName().toLowerCase().contains(query.toLowerCase()))
         .toList();
     }
 }
